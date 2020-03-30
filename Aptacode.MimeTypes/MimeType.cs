@@ -4,7 +4,6 @@
     {
         public string Type { get; }
         public string Subtype { get; }
-        public string Name => $"{Type}/{Subtype}";
 
         public MimeType(string type, string subtype)
         {
@@ -31,5 +30,7 @@
 
             return new MimeType(components[0], components[1]);
         }
+
+        public override string ToString() => $"{Type}/{Subtype}";
     }
 }
