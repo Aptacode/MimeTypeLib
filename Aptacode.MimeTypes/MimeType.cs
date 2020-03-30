@@ -19,5 +19,17 @@
         }
 
         public static MimeType None { get; } = new MimeType();
+
+        public static MimeType Parse(string input)
+        {
+            if (string.IsNullOrEmpty(input))
+                return None;
+
+            var components = input.Split('/');
+            if (components.Length < 2)
+                return None;
+
+            return new MimeType(components[0], components[1]);
+        }
     }
 }
