@@ -1,20 +1,23 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace Aptacode.MimeTypes
 {
     public static class MimeTypes
     {
         //Dictionary containing each MimeType and their compatible extensions
-        private static readonly Dictionary<string, MimeType> MimeTypeDictionary = new Dictionary<string, MimeType>()
+        private static readonly Dictionary<string, MimeType> MimeTypeDictionary = new Dictionary<string, MimeType>
         {
+            //Na
+            {string.Empty, MimeType.None },
             //Application
-            { ".pdf", Application.Pdf},
-            { ".json", Application.Json},
+            {".pdf", Application.Pdf},
+            {".json", Application.Json},
 
             //Text
-            { ".html", Text.Html},
-            { ".rtf", Text.Richtext},
-            { ".txt", Text.Plain},
+            {".html", Text.Html},
+            {".rtf", Text.Richtext},
+            {".txt", Text.Plain},
 
             //Image 
             {".apng", Image.Apng},
@@ -31,11 +34,25 @@ namespace Aptacode.MimeTypes
             {".svg", Image.Svg},
             {".tif", Image.Tiff},
             {".tiff", Image.Tiff},
-            {".webp", Image.WebP},
-
+            {".webp", Image.WebP}
         };
 
-        public static MimeType Get(string extension)
+        public static IEnumerable<MimeType> AllMimeTypes()
+        {
+            return MimeTypeDictionary.Values.Distinct();
+        }
+
+        public static IEnumerable<string> AllExtensions()
+        {
+            return MimeTypeDictionary.Keys.Distinct();
+        }
+
+        public static IEnumerable<string> GetExtensions(MimeType type)
+        {
+            return MimeTypeDictionary.Where(pair => pair.Value.Equals(type)).Select(pair => pair.Key);
+        }
+
+        public static MimeType GetMimeType(string extension)
         {
             if (!MimeTypeDictionary.TryGetValue(extension, out var mimeType))
             {
@@ -45,7 +62,8 @@ namespace Aptacode.MimeTypes
             return mimeType;
         }
 
-        public static void Set(string extension, MimeType mimeType)
+
+        public static void Add(string extension, MimeType mimeType)
         {
             MimeTypeDictionary[extension] = mimeType;
         }
@@ -54,7 +72,7 @@ namespace Aptacode.MimeTypes
         {
             private const string Type = nameof(Application);
 
-            public static MimeType Pdf { get; } = new MimeType(Type,nameof(Pdf));
+            public static MimeType Pdf { get; } = new MimeType(Type, nameof(Pdf));
             public static MimeType Json { get; } = new MimeType(Type, nameof(Json));
         }
 
@@ -70,7 +88,6 @@ namespace Aptacode.MimeTypes
             public static MimeType Svg { get; } = new MimeType(Type, nameof(Svg));
             public static MimeType Tiff { get; } = new MimeType(Type, nameof(Tiff));
             public static MimeType WebP { get; } = new MimeType(Type, nameof(WebP));
-
         }
 
         public static class Audio
