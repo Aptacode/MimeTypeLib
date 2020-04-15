@@ -4,6 +4,8 @@ namespace Aptacode.MimeTypes
 {
     public class MimeType : IEquatable<MimeType>
     {
+        #region Constructors
+
         public MimeType(string type, string subtype)
         {
             Type = type.ToLower();
@@ -16,10 +18,22 @@ namespace Aptacode.MimeTypes
             Subtype = string.Empty;
         }
 
-        public string Type { get; }
-        public string Subtype { get; }
+        #endregion
 
+        #region Properties
+
+        public string Type { get; set; }
+        public string Subtype { get; set; }
         public static MimeType None { get; } = new MimeType();
+
+        #endregion
+
+        #region ToString
+
+        public override string ToString()
+        {
+            return $"{Type}/{Subtype}";
+        }
 
         public static MimeType Parse(string input)
         {
@@ -37,10 +51,8 @@ namespace Aptacode.MimeTypes
             return new MimeType(components[0], components[1]);
         }
 
-        public override string ToString()
-        {
-            return $"{Type}/{Subtype}";
-        }
+        #endregion
+
 
         #region Equality
 
