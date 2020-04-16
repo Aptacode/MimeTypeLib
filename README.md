@@ -23,3 +23,6 @@ public void Demo(){
 }
 
 ```
+
+### Adding MimeTypes
+
