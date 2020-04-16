@@ -9,7 +9,7 @@ A lightweight C# .net standard library containing a huge list of MimeTypes and F
 #using Aptacode.MimeTypes;
 
 public void Demo(){
-  var mimeType = MimeTypes.Application.Json;            //Get an extension
+  var mimeType              = MimeTypes.Application.Json;            //Get an extension
 
   var typeName              = mimeType.Type;            //"application"
   var subTypeName           = mimeType.Subtype;         //"json"
