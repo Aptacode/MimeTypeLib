@@ -1,9 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net4.7.2;netcoreapp3.1</TargetFrameworks>
     <AssemblyName>Aptacode.MimeTypes</AssemblyName>
     <RootNamespace>Aptacode.MimeTypes</RootNamespace>
+    <Authors>Timothy Jones</Authors>
+    <Company>Aptacode</Company>
+    <Description>A lightweight C# .net standard library containing a huge list of MimeTypes and compatible File Extensions</Description>
+    <Copyright>MIT</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Timmoth/Aptacode.MimeTypes</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Timmoth/Aptacode.MimeTypes</RepositoryUrl>
+    <PackageTags>MimeTypes Mime Type File Extension Compatible C# .net standard</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
