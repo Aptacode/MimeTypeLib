@@ -7,7 +7,7 @@ namespace Aptacode.MimeTypes.SourceCodeGenerator
     internal class Program
     {
         private static readonly Regex MimetypesLineRegex =
-            new Regex(@"""(.*)""=>""(.+?)\/(.+?)""", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+            new Regex(@"(.+?)\/(.+?),(.*)", RegexOptions.Compiled | RegexOptions.IgnoreCase);
 
         private static void Main(string[] args)
         {
@@ -21,6 +21,8 @@ namespace Aptacode.MimeTypes.SourceCodeGenerator
         private static MimeTypeDictionary LoadMimeTypes()
         {
             var mimeTypeDictionary = new MimeTypeDictionary();
+            var entries = new List<(string, string, string)>();
+
             foreach (var entry in GetMimeTypeEntries())
             {
                 var match = MimetypesLineRegex.Match(entry);
@@ -30,9 +32,12 @@ namespace Aptacode.MimeTypes.SourceCodeGenerator
                     continue;
                 }
 
-                var extension = match.Groups[1].Value;
-                var type = match.Groups[2].Value;
-                var subtype = match.Groups[3].Value;
+
+                var type = match.Groups[1].Value;
+                var subtype = match.Groups[2].Value;
+                var extension = match.Groups[3].Value;
+
+                entries.Add((type, subtype, extension));
 
                 mimeTypeDictionary.Add(type, subtype, extension);
             }
