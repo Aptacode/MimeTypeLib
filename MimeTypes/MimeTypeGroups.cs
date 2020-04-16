@@ -595,6 +595,96 @@ namespace Aptacode.MimeTypes
             public static MimeType Yang { get; } = new MimeType("application", "yang");
             public static MimeType Yin_xml { get; } = new MimeType("application", "yin+xml");
             public static MimeType Zip { get; } = new MimeType("application", "zip");
+            public static MimeType Msaccess_addin { get; } = new MimeType("application", "msaccess.addin");
+            public static MimeType Msaccess { get; } = new MimeType("application", "msaccess");
+            public static MimeType Msaccess_cab { get; } = new MimeType("application", "msaccess.cab");
+            public static MimeType Msaccess_runtime { get; } = new MimeType("application", "msaccess.runtime");
+            public static MimeType Msaccess_webapplication { get; } = new MimeType("application", "msaccess.webapplication");
+            public static MimeType Msaccess_ftemplate { get; } = new MimeType("application", "msaccess.ftemplate");
+            public static MimeType Internet_property_stream { get; } = new MimeType("application", "internet-property-stream");
+            public static MimeType X_bridge_url { get; } = new MimeType("application", "x-bridge-url");
+            public static MimeType Mpeg { get; } = new MimeType("application", "mpeg");
+            public static MimeType Annodex { get; } = new MimeType("application", "annodex");
+            public static MimeType Olescript { get; } = new MimeType("application", "olescript");
+            public static MimeType Vnd_ms_office_calx { get; } = new MimeType("application", "vnd.ms-office.calx");
+            public static MimeType X_cdf { get; } = new MimeType("application", "x-cdf");
+            public static MimeType X_java_applet { get; } = new MimeType("application", "x-java-applet");
+            public static MimeType Vnd_ms_word_document_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-word.document.macroEnabled.12");
+            public static MimeType Vnd_ms_word_template_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-word.template.macroEnabled.12");
+            public static MimeType Acad { get; } = new MimeType("application", "acad");
+            public static MimeType X_dxf { get; } = new MimeType("application", "x-dxf");
+            public static MimeType Etl { get; } = new MimeType("application", "etl");
+            public static MimeType Envoy { get; } = new MimeType("application", "envoy");
+            public static MimeType Vnd_microsoft_portable_executable { get; } = new MimeType("application", "vnd.microsoft.portable-executable");
+            public static MimeType Fractals { get; } = new MimeType("application", "fractals");
+            public static MimeType Fsharp_script { get; } = new MimeType("application", "fsharp-script");
+            public static MimeType X_gzip { get; } = new MimeType("application", "x-gzip");
+            public static MimeType X_oleobject { get; } = new MimeType("application", "x-oleobject");
+            public static MimeType Hta { get; } = new MimeType("application", "hta");
+            public static MimeType X_iphone { get; } = new MimeType("application", "x-iphone");
+            public static MimeType X_internet_signup { get; } = new MimeType("application", "x-internet-signup");
+            public static MimeType X_itunes_ipa { get; } = new MimeType("application", "x-itunes-ipa");
+            public static MimeType X_itunes_ipg { get; } = new MimeType("application", "x-itunes-ipg");
+            public static MimeType X_itunes_ipsw { get; } = new MimeType("application", "x-itunes-ipsw");
+            public static MimeType X_itunes_ite { get; } = new MimeType("application", "x-itunes-ite");
+            public static MimeType X_itunes_itlp { get; } = new MimeType("application", "x-itunes-itlp");
+            public static MimeType X_itunes_itms { get; } = new MimeType("application", "x-itunes-itms");
+            public static MimeType X_itunes_itpc { get; } = new MimeType("application", "x-itunes-itpc");
+            public static MimeType Liquidmotion { get; } = new MimeType("application", "liquidmotion");
+            public static MimeType Windows_library_xml { get; } = new MimeType("application", "windows-library+xml");
+            public static MimeType X_ms_reader { get; } = new MimeType("application", "x-ms-reader");
+            public static MimeType X_troff_man { get; } = new MimeType("application", "x-troff-man");
+            public static MimeType X_ms_manifest { get; } = new MimeType("application", "x-ms-manifest");
+            public static MimeType X_troff_me { get; } = new MimeType("application", "x-troff-me");
+            public static MimeType X_smaf { get; } = new MimeType("application", "x-smaf");
+            public static MimeType Vnd_ms_mediapackage { get; } = new MimeType("application", "vnd.ms-mediapackage");
+            public static MimeType X_troff_ms { get; } = new MimeType("application", "x-troff-ms");
+            public static MimeType Vnd_ms_outlook { get; } = new MimeType("application", "vnd.ms-outlook");
+            public static MimeType X_miva_compiled { get; } = new MimeType("application", "x-miva-compiled");
+            public static MimeType X_mmxp { get; } = new MimeType("application", "x-mmxp");
+            public static MimeType Opensearchdescription_xml { get; } = new MimeType("application", "opensearchdescription+xml");
+            public static MimeType Font_sfnt { get; } = new MimeType("application", "font-sfnt");
+            public static MimeType X_podcast { get; } = new MimeType("application", "x-podcast");
+            public static MimeType Vnd_ms_pki_pko { get; } = new MimeType("application", "vnd.ms-pki.pko");
+            public static MimeType X_perfmon { get; } = new MimeType("application", "x-perfmon");
+            public static MimeType Vnd_ms_powerpoint_template_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-powerpoint.template.macroEnabled.12");
+            public static MimeType Vnd_ms_powerpoint_addin_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-powerpoint.addin.macroEnabled.12");
+            public static MimeType Vnd_ms_powerpoint_slideshow_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-powerpoint.slideshow.macroEnabled.12");
+            public static MimeType Vnd_ms_powerpoint_presentation_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-powerpoint.presentation.macroEnabled.12");
+            public static MimeType PowerShell { get; } = new MimeType("application", "PowerShell");
+            public static MimeType X_quicktimeplayer { get; } = new MimeType("application", "x-quicktimeplayer");
+            public static MimeType Rat_file { get; } = new MimeType("application", "rat-file");
+            public static MimeType Vnd_rn_rn_music_package { get; } = new MimeType("application", "vnd.rn-rn_music_package");
+            public static MimeType X_troff { get; } = new MimeType("application", "x-troff");
+            public static MimeType X_safari_safariextz { get; } = new MimeType("application", "x-safari-safariextz");
+            public static MimeType Windows_search_connector_xml { get; } = new MimeType("application", "windows-search-connector+xml");
+            public static MimeType X_sgimb { get; } = new MimeType("application", "x-sgimb");
+            public static MimeType X_koan { get; } = new MimeType("application", "x-koan");
+            public static MimeType Vnd_ms_powerpoint_slide_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-powerpoint.slide.macroEnabled.12");
+            public static MimeType X_ms_license { get; } = new MimeType("application", "x-ms-license");
+            public static MimeType Futuresplash { get; } = new MimeType("application", "futuresplash");
+            public static MimeType Streamingmedia { get; } = new MimeType("application", "streamingmedia");
+            public static MimeType Vnd_ms_pki_certstore { get; } = new MimeType("application", "vnd.ms-pki.certstore");
+            public static MimeType Step { get; } = new MimeType("application", "step");
+            public static MimeType X_compressed { get; } = new MimeType("application", "x-compressed");
+            public static MimeType Vnd_ms_visio_viewer { get; } = new MimeType("application", "vnd.ms-visio.viewer");
+            public static MimeType Ms_vsi { get; } = new MimeType("application", "ms-vsi");
+            public static MimeType Vsix { get; } = new MimeType("application", "vsix");
+            public static MimeType X_ms_vsto { get; } = new MimeType("application", "x-ms-vsto");
+            public static MimeType Wasm { get; } = new MimeType("application", "wasm");
+            public static MimeType X_safari_webarchive { get; } = new MimeType("application", "x-safari-webarchive");
+            public static MimeType Wlmoviemaker { get; } = new MimeType("application", "wlmoviemaker");
+            public static MimeType X_wlpg_detect { get; } = new MimeType("application", "x-wlpg-detect");
+            public static MimeType X_wlpg3_detect { get; } = new MimeType("application", "x-wlpg3-detect");
+            public static MimeType X_ms_wmz { get; } = new MimeType("application", "x-ms-wmz");
+            public static MimeType Font_woff2 { get; } = new MimeType("application", "font-woff2");
+            public static MimeType Directx { get; } = new MimeType("application", "directx");
+            public static MimeType Vnd_ms_excel_addin_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-excel.addin.macroEnabled.12");
+            public static MimeType Vnd_ms_excel_sheet_binary_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-excel.sheet.binary.macroEnabled.12");
+            public static MimeType Vnd_ms_excel_sheet_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-excel.sheet.macroEnabled.12");
+            public static MimeType Vnd_ms_excel_template_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-excel.template.macroEnabled.12");
+            public static MimeType X_compress { get; } = new MimeType("application", "x-compress");
+            public static MimeType X_zip_compressed { get; } = new MimeType("application", "x-zip-compressed");
 
 
             public static IEnumerable<MimeType> All()
@@ -640,6 +730,25 @@ namespace Aptacode.MimeTypes
             public static MimeType X_pn_realaudio_plugin { get; } = new MimeType("audio", "x-pn-realaudio-plugin");
             public static MimeType X_wav { get; } = new MimeType("audio", "x-wav");
             public static MimeType Xm { get; } = new MimeType("audio", "xm");
+            public static MimeType Audible { get; } = new MimeType("audio", "audible");
+            public static MimeType Aac { get; } = new MimeType("audio", "aac");
+            public static MimeType Vnd_audible_aax { get; } = new MimeType("audio", "vnd.audible.aax");
+            public static MimeType Ac3 { get; } = new MimeType("audio", "ac3");
+            public static MimeType Vnd_dlna_adts { get; } = new MimeType("audio", "vnd.dlna.adts");
+            public static MimeType Aiff { get; } = new MimeType("audio", "aiff");
+            public static MimeType Annodex { get; } = new MimeType("audio", "annodex");
+            public static MimeType Flac { get; } = new MimeType("audio", "flac");
+            public static MimeType X_gsm { get; } = new MimeType("audio", "x-gsm");
+            public static MimeType M4a { get; } = new MimeType("audio", "m4a");
+            public static MimeType M4b { get; } = new MimeType("audio", "m4b");
+            public static MimeType M4p { get; } = new MimeType("audio", "m4p");
+            public static MimeType X_m4r { get; } = new MimeType("audio", "x-m4r");
+            public static MimeType Mid { get; } = new MimeType("audio", "mid");
+            public static MimeType Scpls { get; } = new MimeType("audio", "scpls");
+            public static MimeType X_sd2 { get; } = new MimeType("audio", "x-sd2");
+            public static MimeType X_smd { get; } = new MimeType("audio", "x-smd");
+            public static MimeType Wav { get; } = new MimeType("audio", "wav");
+            public static MimeType X_m4a { get; } = new MimeType("audio", "x-m4a");
 
 
             public static IEnumerable<MimeType> All()
@@ -717,6 +826,15 @@ namespace Aptacode.MimeTypes
             public static MimeType X_xbitmap { get; } = new MimeType("image", "x-xbitmap");
             public static MimeType X_xpixmap { get; } = new MimeType("image", "x-xpixmap");
             public static MimeType X_xwindowdump { get; } = new MimeType("image", "x-xwindowdump");
+            public static MimeType X_jg { get; } = new MimeType("image", "x-jg");
+            public static MimeType Cis_cod { get; } = new MimeType("image", "cis-cod");
+            public static MimeType Emf { get; } = new MimeType("image", "emf");
+            public static MimeType Pjpeg { get; } = new MimeType("image", "pjpeg");
+            public static MimeType X_macpaint { get; } = new MimeType("image", "x-macpaint");
+            public static MimeType Pict { get; } = new MimeType("image", "pict");
+            public static MimeType X_quicktime { get; } = new MimeType("image", "x-quicktime");
+            public static MimeType Vnd_rn_realflash { get; } = new MimeType("image", "vnd.rn-realflash");
+            public static MimeType X_png { get; } = new MimeType("image", "x-png");
 
 
             public static IEnumerable<MimeType> All()
@@ -770,6 +888,22 @@ namespace Aptacode.MimeTypes
             public static MimeType X_uuencode { get; } = new MimeType("text", "x-uuencode");
             public static MimeType X_vcalendar { get; } = new MimeType("text", "x-vcalendar");
             public static MimeType X_vcard { get; } = new MimeType("text", "x-vcard");
+            public static MimeType H323 { get; } = new MimeType("text", "h323");
+            public static MimeType Xml { get; } = new MimeType("text", "xml");
+            public static MimeType X_ms_contact { get; } = new MimeType("text", "x-ms-contact");
+            public static MimeType Dlm { get; } = new MimeType("text", "dlm");
+            public static MimeType X_ms_group { get; } = new MimeType("text", "x-ms-group");
+            public static MimeType X_hdml { get; } = new MimeType("text", "x-hdml");
+            public static MimeType X_component { get; } = new MimeType("text", "x-component");
+            public static MimeType Webviewhtml { get; } = new MimeType("text", "webviewhtml");
+            public static MimeType X_ms_iqy { get; } = new MimeType("text", "x-ms-iqy");
+            public static MimeType Jscript { get; } = new MimeType("text", "jscript");
+            public static MimeType X_html_insertion { get; } = new MimeType("text", "x-html-insertion");
+            public static MimeType X_ms_rqy { get; } = new MimeType("text", "x-ms-rqy");
+            public static MimeType Scriptlet { get; } = new MimeType("text", "scriptlet");
+            public static MimeType Iuls { get; } = new MimeType("text", "iuls");
+            public static MimeType Vbscript { get; } = new MimeType("text", "vbscript");
+            public static MimeType Vtt { get; } = new MimeType("text", "vtt");
 
 
             public static IEnumerable<MimeType> All()
@@ -861,6 +995,14 @@ namespace Aptacode.MimeTypes
             public static MimeType X_msvideo { get; } = new MimeType("video", "x-msvideo");
             public static MimeType X_sgi_movie { get; } = new MimeType("video", "x-sgi-movie");
             public static MimeType X_smv { get; } = new MimeType("video", "x-smv");
+            public static MimeType Annodex { get; } = new MimeType("video", "annodex");
+            public static MimeType X_dv { get; } = new MimeType("video", "x-dv");
+            public static MimeType Divx { get; } = new MimeType("video", "divx");
+            public static MimeType X_ivf { get; } = new MimeType("video", "x-ivf");
+            public static MimeType X_la_asf { get; } = new MimeType("video", "x-la-asf");
+            public static MimeType Vnd_dlna_mpeg_tts { get; } = new MimeType("video", "vnd.dlna.mpeg-tts");
+            public static MimeType X_matroska_3d { get; } = new MimeType("video", "x-matroska-3d");
+            public static MimeType X_ms_wmp { get; } = new MimeType("video", "x-ms-wmp");
 
 
             public static IEnumerable<MimeType> All()
@@ -875,6 +1017,34 @@ namespace Aptacode.MimeTypes
             public const string Type = "x-conference";
 
             public static MimeType X_cooltalk { get; } = new MimeType("x-conference", "x-cooltalk");
+
+
+            public static IEnumerable<MimeType> All()
+            {
+                return GetMimeTypeProperties(typeof(Application));
+            }
+        }
+
+
+        public static class Drawing
+        {
+            public const string Type = "drawing";
+
+            public static MimeType X_dwf { get; } = new MimeType("drawing", "x-dwf");
+
+
+            public static IEnumerable<MimeType> All()
+            {
+                return GetMimeTypeProperties(typeof(Application));
+            }
+        }
+
+
+        public static class X_world
+        {
+            public const string Type = "x-world";
+
+            public static MimeType X_vrml { get; } = new MimeType("x-world", "x-vrml");
 
 
             public static IEnumerable<MimeType> All()

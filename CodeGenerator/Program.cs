@@ -42,7 +42,7 @@ namespace Aptacode.MimeTypes.SourceCodeGenerator
 
         private static IEnumerable<string> GetMimeTypeEntries()
         {
-            return File.ReadAllLines("./MimeTypeList.txt");
+            return File.ReadAllLines("./mimetypes.txt");
         }
     }
 }
