@@ -1,5 +1,5 @@
 # MimeTypes
-A lightweight C# .net standard library containing a huge list of MimeTypes and File Extension.
+A lightweight C# .net standard library containing a growing list of over 700 mimetypes and 1000 compatible extensions.
 
 
 ### Usage
