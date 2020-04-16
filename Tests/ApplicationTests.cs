@@ -1,10 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Aptacode.MimeTypes;
 using NUnit.Framework;
 
-namespace Tests
+namespace Aptacode.MimeTypes.Tests
 {
     public class BuiltInTypeTests
     {

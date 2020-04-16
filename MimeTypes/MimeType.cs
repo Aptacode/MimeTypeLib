@@ -53,7 +53,6 @@ namespace Aptacode.MimeTypes
 
         #endregion
 
-
         #region Equality
 
         public override int GetHashCode()
