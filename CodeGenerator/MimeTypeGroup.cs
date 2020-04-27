@@ -21,10 +21,12 @@ namespace Aptacode.MimeTypes.SourceCodeGenerator
 
         public void Add(string subtype, string extension)
         {
-            if (!_subTypeDictionary.TryGetValue(subtype, out var mimeType))
+            var subtypeKey = subtype.ToLower();
+
+            if (!_subTypeDictionary.TryGetValue(subtypeKey, out var mimeType))
             {
                 mimeType = new MimeType(TypeName, subtype);
-                _subTypeDictionary.Add(subtype, mimeType);
+                _subTypeDictionary.Add(subtypeKey, mimeType);
             }
 
             mimeType.Add(extension);

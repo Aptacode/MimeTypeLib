@@ -430,7 +430,7 @@ application/vnd.intercon.formnet,.xpw
 application/vnd.intercon.formnet,.xpx
 application/vnd.intergeo,.i2g
 application/vnd.intu.qbo,.qbo
-application/vnd.intu.qfx,.qfx
+application/vnd.intu.qfx,.qfxmac
 application/vnd.ipunplugged.rcprofile,.rcprofile
 application/vnd.irepository.package+xml,.irp
 application/vnd.isac.fcs,.fcs
@@ -510,13 +510,9 @@ application/vnd.ms-excel,.xlt
 application/vnd.ms-excel,.xlt
 application/vnd.ms-excel,.xlw
 application/vnd.ms-excel,.xlw
-application/vnd.ms-excel.addin.macroenabled.12,.xlam
 application/vnd.ms-excel.addin.macroEnabled.12,.xlam
-application/vnd.ms-excel.sheet.binary.macroenabled.12,.xlsb
 application/vnd.ms-excel.sheet.binary.macroEnabled.12,.xlsb
-application/vnd.ms-excel.sheet.macroenabled.12,.xlsm
 application/vnd.ms-excel.sheet.macroEnabled.12,.xlsm
-application/vnd.ms-excel.template.macroenabled.12,.xltm
 application/vnd.ms-excel.template.macroEnabled.12,.xltm
 application/vnd.ms-fontobject,.eot
 application/vnd.ms-fontobject,.eot

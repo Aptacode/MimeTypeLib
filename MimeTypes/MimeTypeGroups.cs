@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 
 namespace Aptacode.MimeTypes
 {
@@ -7,8 +7,8 @@ namespace Aptacode.MimeTypes
 
         public static class Application
         {
-            public const string Type = "application";
-
+            public const string Type = "application"; 
+                
             public static MimeType Acad { get; } = new MimeType("application", "acad");
             public static MimeType Annodex { get; } = new MimeType("application", "annodex");
             public static MimeType Applixware { get; } = new MimeType("application", "applixware");
@@ -338,13 +338,9 @@ namespace Aptacode.MimeTypes
             public static MimeType Vnd_ms_cab_compressed { get; } = new MimeType("application", "vnd.ms-cab-compressed");
             public static MimeType Vnd_mseq { get; } = new MimeType("application", "vnd.mseq");
             public static MimeType Vnd_ms_excel { get; } = new MimeType("application", "vnd.ms-excel");
-            public static MimeType Vnd_ms_excel_addin_macroenabled_12 { get; } = new MimeType("application", "vnd.ms-excel.addin.macroenabled.12");
             public static MimeType Vnd_ms_excel_addin_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-excel.addin.macroEnabled.12");
-            public static MimeType Vnd_ms_excel_sheet_binary_macroenabled_12 { get; } = new MimeType("application", "vnd.ms-excel.sheet.binary.macroenabled.12");
             public static MimeType Vnd_ms_excel_sheet_binary_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-excel.sheet.binary.macroEnabled.12");
-            public static MimeType Vnd_ms_excel_sheet_macroenabled_12 { get; } = new MimeType("application", "vnd.ms-excel.sheet.macroenabled.12");
             public static MimeType Vnd_ms_excel_sheet_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-excel.sheet.macroEnabled.12");
-            public static MimeType Vnd_ms_excel_template_macroenabled_12 { get; } = new MimeType("application", "vnd.ms-excel.template.macroenabled.12");
             public static MimeType Vnd_ms_excel_template_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-excel.template.macroEnabled.12");
             public static MimeType Vnd_ms_fontobject { get; } = new MimeType("application", "vnd.ms-fontobject");
             public static MimeType Vnd_ms_htmlhelp { get; } = new MimeType("application", "vnd.ms-htmlhelp");
@@ -360,21 +356,14 @@ namespace Aptacode.MimeTypes
             public static MimeType Vnd_ms_pki_stl { get; } = new MimeType("application", "vnd.ms-pki.stl");
             public static MimeType Vnd_ms_powerpoint { get; } = new MimeType("application", "vnd.ms-powerpoint");
             public static MimeType Vnd_ms_powerpoint_addin_macroenabled_12 { get; } = new MimeType("application", "vnd.ms-powerpoint.addin.macroenabled.12");
-            public static MimeType Vnd_ms_powerpoint_addin_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-powerpoint.addin.macroEnabled.12");
             public static MimeType Vnd_ms_powerpoint_presentation_macroenabled_12 { get; } = new MimeType("application", "vnd.ms-powerpoint.presentation.macroenabled.12");
-            public static MimeType Vnd_ms_powerpoint_presentation_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-powerpoint.presentation.macroEnabled.12");
             public static MimeType Vnd_ms_powerpoint_slide_macroenabled_12 { get; } = new MimeType("application", "vnd.ms-powerpoint.slide.macroenabled.12");
-            public static MimeType Vnd_ms_powerpoint_slide_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-powerpoint.slide.macroEnabled.12");
             public static MimeType Vnd_ms_powerpoint_slideshow_macroenabled_12 { get; } = new MimeType("application", "vnd.ms-powerpoint.slideshow.macroenabled.12");
-            public static MimeType Vnd_ms_powerpoint_slideshow_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-powerpoint.slideshow.macroEnabled.12");
             public static MimeType Vnd_ms_powerpoint_template_macroenabled_12 { get; } = new MimeType("application", "vnd.ms-powerpoint.template.macroenabled.12");
-            public static MimeType Vnd_ms_powerpoint_template_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-powerpoint.template.macroEnabled.12");
             public static MimeType Vnd_ms_project { get; } = new MimeType("application", "vnd.ms-project");
             public static MimeType Vnd_ms_visio_viewer { get; } = new MimeType("application", "vnd.ms-visio.viewer");
             public static MimeType Vnd_ms_word_document_macroenabled_12 { get; } = new MimeType("application", "vnd.ms-word.document.macroenabled.12");
-            public static MimeType Vnd_ms_word_document_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-word.document.macroEnabled.12");
             public static MimeType Vnd_ms_word_template_macroenabled_12 { get; } = new MimeType("application", "vnd.ms-word.template.macroenabled.12");
-            public static MimeType Vnd_ms_word_template_macroEnabled_12 { get; } = new MimeType("application", "vnd.ms-word.template.macroEnabled.12");
             public static MimeType Vnd_ms_works { get; } = new MimeType("application", "vnd.ms-works");
             public static MimeType Vnd_ms_wpl { get; } = new MimeType("application", "vnd.ms-wpl");
             public static MimeType Vnd_ms_xpsdocument { get; } = new MimeType("application", "vnd.ms-xpsdocument");
@@ -696,8 +685,8 @@ namespace Aptacode.MimeTypes
 
         public static class Audio
         {
-            public const string Type = "audio";
-
+            public const string Type = "audio"; 
+                
             public static MimeType Aac { get; } = new MimeType("audio", "aac");
             public static MimeType Ac3 { get; } = new MimeType("audio", "ac3");
             public static MimeType Adpcm { get; } = new MimeType("audio", "adpcm");
@@ -760,8 +749,8 @@ namespace Aptacode.MimeTypes
 
         public static class Chemical
         {
-            public const string Type = "chemical";
-
+            public const string Type = "chemical"; 
+                
             public static MimeType X_cdx { get; } = new MimeType("chemical", "x-cdx");
             public static MimeType X_cif { get; } = new MimeType("chemical", "x-cif");
             public static MimeType X_cmdf { get; } = new MimeType("chemical", "x-cmdf");
@@ -779,8 +768,8 @@ namespace Aptacode.MimeTypes
 
         public static class Drawing
         {
-            public const string Type = "drawing";
-
+            public const string Type = "drawing"; 
+                
             public static MimeType X_dwf { get; } = new MimeType("drawing", "x-dwf");
 
 
@@ -793,8 +782,8 @@ namespace Aptacode.MimeTypes
 
         public static class Image
         {
-            public const string Type = "image";
-
+            public const string Type = "image"; 
+                
             public static MimeType Bmp { get; } = new MimeType("image", "bmp");
             public static MimeType Cgm { get; } = new MimeType("image", "cgm");
             public static MimeType Cis_cod { get; } = new MimeType("image", "cis-cod");
@@ -860,8 +849,8 @@ namespace Aptacode.MimeTypes
 
         public static class Message
         {
-            public const string Type = "message";
-
+            public const string Type = "message"; 
+                
             public static MimeType Rfc822 { get; } = new MimeType("message", "rfc822");
 
 
@@ -874,8 +863,8 @@ namespace Aptacode.MimeTypes
 
         public static class Model
         {
-            public const string Type = "model";
-
+            public const string Type = "model"; 
+                
             public static MimeType Iges { get; } = new MimeType("model", "iges");
             public static MimeType Mesh { get; } = new MimeType("model", "mesh");
             public static MimeType Vnd_collada_xml { get; } = new MimeType("model", "vnd.collada+xml");
@@ -899,8 +888,8 @@ namespace Aptacode.MimeTypes
 
         public static class Text
         {
-            public const string Type = "text";
-
+            public const string Type = "text"; 
+                
             public static MimeType Cache_manifest { get; } = new MimeType("text", "cache-manifest");
             public static MimeType Calendar { get; } = new MimeType("text", "calendar");
             public static MimeType Css { get; } = new MimeType("text", "css");
@@ -968,8 +957,8 @@ namespace Aptacode.MimeTypes
 
         public static class Video
         {
-            public const string Type = "video";
-
+            public const string Type = "video"; 
+                
             public static MimeType _gpp { get; } = new MimeType("video", "3gpp");
             public static MimeType _gpp2 { get; } = new MimeType("video", "3gpp2");
             public static MimeType Annodex { get; } = new MimeType("video", "annodex");
@@ -1028,8 +1017,8 @@ namespace Aptacode.MimeTypes
 
         public static class X_conference
         {
-            public const string Type = "x-conference";
-
+            public const string Type = "x-conference"; 
+                
             public static MimeType X_cooltalk { get; } = new MimeType("x-conference", "x-cooltalk");
 
 
@@ -1042,8 +1031,8 @@ namespace Aptacode.MimeTypes
 
         public static class X_world
         {
-            public const string Type = "x-world";
-
+            public const string Type = "x-world"; 
+                
             public static MimeType X_vrml { get; } = new MimeType("x-world", "x-vrml");
 
 

@@ -32,7 +32,6 @@ namespace Aptacode.MimeTypes.SourceCodeGenerator
                     continue;
                 }
 
-
                 var type = match.Groups[1].Value;
                 var subtype = match.Groups[2].Value;
                 var extension = match.Groups[3].Value;

@@ -14,10 +14,12 @@ namespace Aptacode.MimeTypes.SourceCodeGenerator
 
         public void Add(string type, string subtype, string extension)
         {
-            if (!_mimeTypeDictionary.TryGetValue(type, out var mimeGroup))
+            var typeKey = type.ToLower();
+
+            if (!_mimeTypeDictionary.TryGetValue(typeKey, out var mimeGroup))
             {
                 mimeGroup = new MimeTypeGroup(type);
-                _mimeTypeDictionary.Add(type, mimeGroup);
+                _mimeTypeDictionary.Add(typeKey, mimeGroup);
             }
 
             mimeGroup.Add(subtype, extension);
