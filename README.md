@@ -14,7 +14,7 @@ https://www.nuget.org/packages/Aptacode.MimeTypes/
 #using Aptacode.MimeTypes;
 
 public void Demo(){
-  var mimeType              = MimeTypes.Application.Json;            //Get an extension
+  var mimeType              = MimeTypes.Application.Json;//Get a MimeType
 
   var typeName              = mimeType.Type;            //"application"
   var subTypeName           = mimeType.Subtype;         //"json"
