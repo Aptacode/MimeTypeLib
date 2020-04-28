@@ -1,4 +1,4 @@
-  <img width="256" height="256" src="https://github.com/Timmoth/Aptacode.MimeTypes/blob/master/Resources/Banner.jpg">
+  <img width="256" height="256" src="https://github.com/Timmoth/Aptacode.MimeTypes/blob/master/Resources/banner.jpg">
 A lightweight C# .net standard library containing a growing list of over 900 mimetypes and 1600 compatible extensions.
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b4609c326d674acd98de15432bc5f69a)](https://www.codacy.com/manual/Timmoth/Aptacode.MimeTypes?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Timmoth/Aptacode.MimeTypes&amp;utm_campaign=Badge_Grade)
