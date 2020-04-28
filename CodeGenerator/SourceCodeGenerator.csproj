@@ -5,6 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyName>Aptacode.MimeTypes.SourceCodeGenerator</AssemblyName>
     <RootNamespace>Aptacode.MimeTypes.SourceCodeGenerator</RootNamespace>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
