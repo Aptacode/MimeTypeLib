@@ -28,7 +28,7 @@ public void Demo(){
 ```
 
 ### Adding MimeTypes
-The main library's sourcecode is generated from a text file containing a list of MimeTypes, users can modify the list, build & run the SourceCodeGenerator project and then overwrite 'MimeTypeGroups.cs' and 'MimeTypeExtensions.cs' using the generated files to add statically typed MimeTypes to the library.
+The main library is generated from a text file containing a list of MimeTypes, users can modify the list, build & run the SourceCodeGenerator project and then overwrite 'MimeTypeGroups.cs' and 'MimeTypeExtensions.cs' using the generated files to add statically typed MimeTypes to the library.
 https://github.com/Timmoth/Aptacode.MimeTypes/blob/master/CodeGenerator/mimetypes.txt
 
 Alternatively users can modify add new MimeTypes & modify existing ones at runtime using the static MimeTypes class.
