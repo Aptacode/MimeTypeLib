@@ -12,19 +12,13 @@ namespace Aptacode.MimeTypes
             Subtype = subtype.ToLower();
         }
 
-        public MimeType()
-        {
-            Type = string.Empty;
-            Subtype = string.Empty;
-        }
-
         #endregion
 
         #region Properties
 
-        public string Type { get; set; }
-        public string Subtype { get; set; }
-        public static MimeType None { get; } = new MimeType();
+        public string Type { get; }
+        public string Subtype { get; }
+        public static MimeType None { get; } = new MimeType(string.Empty, string.Empty);
 
         #endregion
 
@@ -43,12 +37,7 @@ namespace Aptacode.MimeTypes
             }
 
             var components = input.Split('/');
-            if (components.Length < 2)
-            {
-                return None;
-            }
-
-            return new MimeType(components[0], components[1]);
+            return components.Length < 2 ? None : new MimeType(components[0], components[1]);
         }
 
         #endregion
