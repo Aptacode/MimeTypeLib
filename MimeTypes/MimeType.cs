@@ -42,23 +42,24 @@ namespace Aptacode.MimeTypes
 
         #endregion
 
-        #region Equality
+        #region IEquatable
 
-        public override int GetHashCode()
-        {
-            return (Type, Subtype).GetHashCode();
-        }
+        public override int GetHashCode() => (Type, Subtype).GetHashCode();
 
         public override bool Equals(object obj)
         {
-            return obj is MimeType other && Equals(other);
+            return obj is MimeType mimeType && Equals(mimeType);
         }
 
-        public bool Equals(MimeType other)
+        public bool Equals(MimeType other) => this == other;
+
+        public static bool operator == (MimeType lhs, MimeType rhs)
         {
-            return other != null && Type.Equals(other.Type) && Subtype.Equals(other.Subtype);
+            return lhs?.Type == rhs?.Type && lhs?.Subtype == rhs?.Subtype;
         }
 
-        #endregion Equality
+        public static bool operator !=(MimeType lhs, MimeType rhs) => !(lhs == rhs);
+
+        #endregion
     }
 }
